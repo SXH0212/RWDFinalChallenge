@@ -1,0 +1,462 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+/* css reset end */
+* {
+  outline: 1px solid #000;
+}
+
+body {
+  background-color: #efe9e7;
+}
+
+.wrap {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+/* 表頭 */
+.header {
+  background-image: url(../web/assets/header_desktop.png);
+  background-position: center;
+  height: 420px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 375px) {
+  .header {
+    background-image: url(../web/assets/header_mobile.png);
+    margin-bottom: 5%;
+  }
+}
+
+.menu {
+  width: 100%;
+  max-width: 1024px;
+  background: rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+  position: fixed;
+  top: 0;
+}
+
+.showmenu {
+  display: none;
+}
+@media (max-width: 375px) {
+  .showmenu {
+    display: block;
+    float: right;
+    margin: 1em;
+    font-family: MicrosoftJhengHeiRegular;
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 375px) {
+  .menu-list {
+    /*隱藏選單開始*/
+    max-height: 0px;
+    overflow: hidden;
+    /*隱藏選單結束*/
+    /*絕對定位疊在網頁上*/
+    position: absolute;
+    z-index: 100;
+    top: 64px;
+    background: rgba(0, 0, 0, 0.75);
+  }
+}
+
+@media (max-width: 375px) {
+  .menu-show .menu-list {
+    max-height: 200px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 375px) {
+  .menu-show .menu-list a:hover {
+    background: #FFFFFF;
+    color: #000000;
+  }
+}
+
+.logo {
+  background-image: url(../web/assets/logo_w@svg.svg);
+  display: block;
+  width: 120px;
+  height: 24px;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 20px 0 20px 40px;
+}
+
+.menu ul {
+  display: flex;
+}
+.menu li {
+  width: 80px;
+  text-align: center;
+}
+.menu li a {
+  text-decoration: none;
+  display: block;
+  padding: 10px 0;
+  font-family: MicrosoftJhengHeiRegular;
+  font-size: 18px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+.menu li a:hover {
+  background: #FFFFFF;
+  color: #000000;
+}
+
+.banner-title {
+  background: rgba(0, 0, 0, 0.35);
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+}
+.banner-title h2 {
+  font-family: MicrosoftJhengHeiRegular;
+  font-size: 36px;
+  color: #FFFFFF;
+  margin: 20px 0;
+}
+.banner-title h3 {
+  font-family: MicrosoftJhengHeiRegular;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+.knife {
+  display: flex;
+  justify-content: center;
+}
+
+/* 主內容 */
+.content h2 {
+  font-family: NotoSansCJKtc-Black;
+  font-size: 48px;
+  color: #3D1101;
+  text-align: center;
+  margin-top: 5%;
+}
+.content h3 {
+  font-family: NotoSansCJKtc-Medium;
+  font-size: 20px;
+  color: #3D1101;
+  text-align: center;
+  margin-bottom: 35px;
+}
+.content h4 {
+  font-family: MicrosoftJhengHeiRegular;
+  font-size: 18px;
+  color: #3D1101;
+  text-align: center;
+  margin: 11px 0 16px;
+}
+
+.register {
+  box-shadow: 3px 3px 4px 0px rgba(0, 0, 0, 0.16);
+  border-top: #FF5E45 5px solid;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  max-width: 620px;
+}
+@media (max-width: 375px) {
+  .register {
+    margin: 0 5%;
+    margin-bottom: 2%;
+  }
+}
+
+.register-form {
+  display: flex;
+  justify-content: space-between;
+  background: #EFE9E7;
+}
+@media (max-width: 375px) {
+  .register-form {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.register-form h5 {
+  width: 48%;
+  line-height: 1.2em;
+}
+@media (max-width: 375px) {
+  .register-form h5 {
+    width: 100%;
+    margin-bottom: 8%;
+  }
+}
+.register-form form {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+  margin-right: 2%;
+}
+@media (max-width: 375px) {
+  .register-form form {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+.register-form form label {
+  font-family: MicrosoftJhengHeiRegular;
+  font-size: 16px;
+  color: #3D1101;
+  margin-bottom: 3px;
+}
+.register-form form input {
+  margin-bottom: 6px;
+  font-size: 18px;
+}
+.register-form form input:focus {
+  background-color: rgb(198, 179, 207);
+}
+.register-form form p {
+  font-family: MicrosoftJhengHeiRegular;
+  font-size: 14px;
+  color: #FF5E45;
+  margin-bottom: 36px;
+}
+.register-form form .btn {
+  background: #F56C23;
+  border-radius: 3px;
+  font-family: PingFangTC-Regular;
+  font-size: 14px;
+  color: #FFFFFF;
+  margin-left: 160px;
+}
+.register-form form .btn:hover {
+  transform: translateY(-1px);
+}
+
+/* 表尾 */
+.footer {
+  background-color: #EfE9E7;
+  display: flex;
+  padding: 50px 43px;
+}
+@media (max-width: 375px) {
+  .footer {
+    flex-direction: column;
+  }
+}
+
+.footer-about {
+  width: 299px;
+}
+@media (max-width: 375px) {
+  .footer-about {
+    margin-bottom: 20px;
+  }
+}
+.footer-about h2 {
+  font-family: MicrosoftJhengHeiRegular;
+  font-size: 24px;
+  color: #3D1101;
+  margin-bottom: 16px;
+}
+.footer-about h3 {
+  font-family: MicrosoftJhengHeiRegular;
+  font-size: 16px;
+  color: #3D1101;
+  text-decoration: none;
+  margin-right: 42px;
+}
+
+.contact {
+  margin-right: 75px;
+  width: 299px;
+  list-style: disc;
+}
+@media (max-width: 375px) {
+  .contact {
+    margin-bottom: 20px;
+  }
+}
+.contact p {
+  font-family: MicrosoftJhengHeiRegular;
+  font-size: 24px;
+  color: #3D1101;
+  margin-bottom: 16px;
+}
+.contact li {
+  font-family: MicrosoftJhengHeiRegular;
+  font-size: 16px;
+  color: #3D1101;
+  text-decoration: none;
+}
+.contact li a {
+  font-family: MicrosoftJhengHeiRegular;
+  font-size: 16px;
+  color: #3D1101;
+  text-decoration: none;
+}
+
+.footer-img ul {
+  display: flex;
+  justify-content: end;
+}
+.footer-img li {
+  width: 10%;
+  margin: 10px;
+  margin-top: 15px;
+}/*# sourceMappingURL=register.css.map */

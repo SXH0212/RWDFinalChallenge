@@ -1,0 +1,138 @@
+/* 表頭 */
+.header {
+    background-image: url(../web/assets/header_desktop.png);
+    background-position: center;
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @include phone375px {
+        background-image: url(../web/assets/header_mobile.png);
+        margin-bottom: 5%;
+    }
+}
+
+.menu {
+    width: 100%;
+    max-width: 1024px;
+    background: rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+    position: fixed;
+    top: 0;
+}
+
+.showmenu {
+    display: none;
+
+    @include phone375px {
+        display: block;
+        float: right;
+        margin: 1em;
+        font-family: MicrosoftJhengHeiRegular;
+        font-size: 18px;
+        font-weight: 400;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+}
+
+.menu-list {
+    @include phone375px {
+        /*隱藏選單開始*/
+        max-height: 0px;
+        overflow: hidden;
+        /*隱藏選單結束*/
+        /*絕對定位疊在網頁上*/
+        position: absolute;
+        z-index: 100;
+        top: 64px;
+        background: rgba(0, 0, 0, 0.75);
+    }
+}
+
+.menu-show {
+    .menu-list {
+        @include phone375px {
+            max-height: 200px;
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        a:hover {
+            @include phone375px {
+                background: #FFFFFF;
+                color: #000000;
+            }
+        }
+    }
+}
+
+.logo {
+    background-image: url(../web/assets/logo_w@svg.svg);
+    display: block;
+    width: 120px;
+    height: 24px;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 20px 0 20px 40px;
+}
+
+.menu {
+    ul {
+        display: flex;
+    }
+
+    li {
+        width: 80px;
+        text-align: center;
+
+        a {
+            text-decoration: none;
+            display: block;
+            padding: 10px 0;
+            font-family: MicrosoftJhengHeiRegular;
+            font-size: 18px;
+            font-weight: 400;
+            color: #FFFFFF;
+
+            &:hover {
+                background: #FFFFFF;
+                color: #000000;
+            }
+        }
+
+
+    }
+}
+
+.banner-title {
+    background: rgba(0, 0, 0, 0.35);
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+
+
+    h2 {
+        font-family: MicrosoftJhengHeiRegular;
+        font-size: 36px;
+        color: #FFFFFF;
+        margin: 20px 0;
+    }
+
+    h3 {
+        font-family: MicrosoftJhengHeiRegular;
+        font-size: 16px;
+        color: #FFFFFF;
+    }
+}
+
+.knife {
+    display: flex;
+    justify-content: center;
+}

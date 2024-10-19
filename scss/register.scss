@@ -1,0 +1,129 @@
+@import "reset";
+@import "grid";
+
+body {
+    background-color: #efe9e7;
+}
+
+.wrap {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+@import "header";
+
+/* 主內容 */
+.content {
+    h2 {
+        font-family: NotoSansCJKtc-Black;
+        font-size: 48px;
+        color: #3D1101;
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    h3 {
+        font-family: NotoSansCJKtc-Medium;
+        font-size: 20px;
+        color: #3D1101;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+
+    h4 {
+        font-family: MicrosoftJhengHeiRegular;
+        font-size: 18px;
+        color: #3D1101;
+        text-align: center;
+        margin: 11px 0 16px;
+    }
+}
+
+.register {
+    box-shadow: 3px 3px 4px 0px rgba(0, 0, 0, 0.16);
+    border-top: #FF5E45 5px solid;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    max-width: 620px;
+
+    @include phone375px {
+        margin: 0 5%;
+        margin-bottom: 2%;
+    }
+}
+
+.register-form {
+    display: flex;
+    justify-content: space-between;
+    background: #EFE9E7;
+
+    @include phone375px {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    h5 {
+        width: 48%;
+        line-height: 1.2em;
+
+        @include phone375px {
+            width: 100%;
+            margin-bottom: 8%;
+        }
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 48%;
+        margin-right: 2%;
+
+        @include phone375px {
+            width: 100%;
+            margin-right: 0;
+        }
+
+        label {
+            font-family: MicrosoftJhengHeiRegular;
+            font-size: 16px;
+            color: #3D1101;
+            margin-bottom: 3px;
+        }
+
+        input {
+            margin-bottom: 6px;
+            font-size: 18px;
+
+            &:focus {
+                background-color: rgb(198, 179, 207);
+            }
+        }
+
+        p {
+            font-family: MicrosoftJhengHeiRegular;
+            font-size: 14px;
+            color: #FF5E45;
+            margin-bottom: 36px;
+        }
+
+        .btn {
+            background: #F56C23;
+            border-radius: 3px;
+            font-family: PingFangTC-Regular;
+            font-size: 14px;
+            color: #FFFFFF;
+            margin-left: 160px;
+
+            &:hover {
+                transform: translateY(-1px);
+            }
+        }
+    }
+}
+
+
+
+
+
+@import "footer";

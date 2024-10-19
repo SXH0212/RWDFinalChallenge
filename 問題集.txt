@@ -1,0 +1,9 @@
+@.在index.html的地圖和表單的大小不會調整
+@.發現在裝置模擬下，hover沒有效果，例如
+.menu-show .menu-list a:hover {
+        background: #FFFFFF;
+        color: #000000;
+    }
+
+
+@在order.html的 .product-car li img 大小不會調整跟範版一樣大 感覺看起來怪怪的
