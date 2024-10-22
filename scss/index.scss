@@ -24,7 +24,7 @@ body {
 
         &::before {
             content: "";
-            width: 150px;
+            width: 15.94048%;
             height: 2px;
             background-color: #979797;
             position: absolute;
@@ -36,14 +36,14 @@ body {
             }
 
             @include phone375px {
-                width: 30px;
+                width: 8%;
                 left: 4%;
             }
         }
 
         &::after {
             content: "";
-            width: 150px;
+            width: 15.94048%;
             height: 2px;
             background-color: #979797;
             position: absolute;
@@ -55,7 +55,7 @@ body {
             }
 
             @include phone375px {
-                width: 30px;
+                width: 8%;
                 right: 4%;
             }
         }
@@ -73,7 +73,7 @@ body {
 
     li {
         text-align: center;
-        padding: 20px;
+        padding: 2.12539%;
         width: 33.33333%;
 
         @include phone375px {
