@@ -146,10 +146,6 @@ img {
 }
 
 /* css reset end */
-* {
-  outline: 1px solid #000;
-}
-
 body {
   background-color: #efe9e7;
 }
