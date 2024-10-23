@@ -1,0 +1,36 @@
+
+*** These modified files were found in JOE when it aborted on Wed Oct 23 20:15:46 2024
+*** JOE was aborted by UNIX signal 1
+
+*** File '/var/www/html/hexschool/RWD_course/weblayout/.git/MERGE_MSG'
+Merge branch 'develope'
+
+# Please enter a commit message to explain why this merge is necessary,
+# especially if it merges an updated upstream into a topic branch.
+#
+# Lines starting with '#' will be ignored, and an empty message aborts
+# the commit.
+
+
+
+*** File '(Unnamed)'
+www-d
+
+*** File '(Unnamed)'
+controller.php
+controller.php
+controller.php
+start.php
+start.php
+start.php
+start.php
+start.php
+start.php
+/var/www/html/hexschool/RWD_course/weblayout/.git/MERGE_MSG
+/var/www/html/hexschool/RWD_course/weblayout/.git/MERGE_MSG
+
+*** File '* Startup Log *'
+Processing '/etc/joe/editorrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/editorrc
