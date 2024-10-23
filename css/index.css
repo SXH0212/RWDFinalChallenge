@@ -359,7 +359,7 @@ body {
   font-family: MicrosoftJhengHeiRegular;
   font-size: 18px;
   color: #3D1101;
-  margin: 20px 0;
+  margin: 6.37633% 0;
 }
 .feature li p {
   font-family: MicrosoftJhengHeiRegular;
@@ -382,10 +382,10 @@ body {
   }
 }
 .chef img {
-  padding-left: 42px;
+  padding-left: 4.46333%;
   max-width: 100%;
   height: auto;
-  margin-right: 25px;
+  margin-right: 2.65674%;
 }
 @media (max-width: 768px) {
   .chef img {
@@ -394,7 +394,7 @@ body {
 }
 @media (max-width: 375px) {
   .chef img {
-    padding: 5px;
+    padding: 0.53134%;
     margin: 0;
   }
 }
@@ -414,7 +414,7 @@ body {
   font-family: MicrosoftJhengHeiRegular;
   font-size: 16px;
   color: #EFE9E7;
-  margin-bottom: 16px;
+  margin-bottom: 3.32578%;
 }
 @media (max-width: 375px) {
   .chef-text h3 {
@@ -425,17 +425,17 @@ body {
   font-family: MicrosoftJhengHeiRegular;
   font-size: 16px;
   color: #EFE9E7;
-  margin-right: 77px;
+  margin-right: 16.00532%;
 }
 @media (max-width: 768px) {
   .chef-text p {
-    margin-right: 20px;
+    margin-right: 5.50039%;
   }
 }
 @media (max-width: 375px) {
   .chef-text p {
     width: 100%;
-    padding: 10px;
+    padding: 2.66666%;
   }
 }
 
@@ -444,16 +444,16 @@ body {
   font-size: 24px;
   color: #3D1101;
   text-align: center;
-  margin: 50px 0;
+  margin: 4.88281% 0;
 }
 
 .feedback {
   display: flex;
-  margin: 0 42px;
+  margin: 0 4.46808%;
 }
 @media (max-width: 768px) {
   .feedback {
-    margin: 4px;
+    margin: 0.52631%;
   }
 }
 @media (max-width: 375px) {
@@ -469,14 +469,14 @@ body {
   font-family: MicrosoftJhengHeiRegular;
   font-size: 18px;
   color: #3D1101;
-  margin-bottom: 22px;
+  margin-bottom: 11.93628%;
 }
 .feedback h3 {
   font-family: MicrosoftJhengHeiRegular;
   font-size: 16px;
   color: #3D1101;
   line-height: 24px;
-  margin-bottom: 16px;
+  margin-bottom: 8.68093%;
 }
 .feedback h4 {
   font-family: MicrosoftJhengHeiRegular;
@@ -487,7 +487,7 @@ body {
 }
 .feedback img {
   border-radius: 50%;
-  margin-right: 13px;
+  margin-right: 4.18237%;
 }
 @media (max-width: 768px) {
   .feedback img {

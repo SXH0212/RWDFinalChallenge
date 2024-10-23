@@ -84,7 +84,7 @@ body {
             font-family: MicrosoftJhengHeiRegular;
             font-size: 18px;
             color: #3D1101;
-            margin: 20px 0;
+            margin: 6.37633% 0;
         }
 
         p {
@@ -111,17 +111,17 @@ body {
     }
 
     img {
-        padding-left: 42px;
+        padding-left: 4.46333%;
         max-width: 100%;
         height: auto;
-        margin-right: 25px;
+        margin-right: 2.65674%;
 
         @include pad768px {
             max-width: 50%;
         }
 
         @include phone375px {
-            padding: 5px;
+            padding: 0.53134%;
             margin: 0;
         }
     }
@@ -143,7 +143,7 @@ body {
         font-family: MicrosoftJhengHeiRegular;
         font-size: 16px;
         color: #EFE9E7;
-        margin-bottom: 16px;
+        margin-bottom: 3.32578%;
 
         @include phone375px {
             text-align: center;
@@ -154,15 +154,15 @@ body {
         font-family: MicrosoftJhengHeiRegular;
         font-size: 16px;
         color: #EFE9E7;
-        margin-right: 77px;
+        margin-right: 16.00532%;
 
         @include pad768px() {
-            margin-right: 20px;
+            margin-right: 5.50039%;
         }
 
         @include phone375px {
             width: 100%;
-            padding: 10px;
+            padding: 2.66666%;
         }
     }
 }
@@ -172,15 +172,15 @@ body {
     font-size: 24px;
     color: #3D1101;
     text-align: center;
-    margin: 50px 0;
+    margin: 4.88281% 0;
 }
 
 .feedback {
     display: flex;
-    margin: 0 42px;
+    margin: 0 4.46808%;
 
     @include pad768px() {
-        margin: 4px;
+        margin: 0.52631%;
     }
 
     @include phone375px {
@@ -196,7 +196,7 @@ body {
         font-family: MicrosoftJhengHeiRegular;
         font-size: 18px;
         color: #3D1101;
-        margin-bottom: 22px;
+        margin-bottom: 11.93628%;
     }
 
     h3 {
@@ -204,7 +204,7 @@ body {
         font-size: 16px;
         color: #3D1101;
         line-height: 24px;
-        margin-bottom: 16px;
+        margin-bottom: 8.68093%;
     }
 
     h4 {
@@ -217,7 +217,7 @@ body {
 
     img {
         border-radius: 50%;
-        margin-right: 13px;
+        margin-right: 4.18237%;
 
         @include pad768px() {
             margin-right: 2px;
